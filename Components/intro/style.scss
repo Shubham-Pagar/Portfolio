@@ -1,0 +1,48 @@
+.Intro_section {
+    height: 100vh;
+    width: 100%;
+    overflow: hidden;
+    background: linear-gradient(12deg, #2559cd, #1c4cc8, 41%, #0f38c1 80%);
+    position: relative;
+    display: flex;
+    justify-content: center;
+
+    .vector_bg {
+        height: 100%;
+        width: 100%;
+        position: absolute;
+        background-image: url("../../Images/vector-background.png");
+        background-size: cover;
+        background-position: center center;
+        background-repeat: no-repeat;
+        opacity: 0.4;
+        z-index: 0;
+
+    }
+
+    .Cloud {
+        position: absolute;
+        bottom: 0%;
+        left: 0%;
+        width: 100%;
+        z-index: 2;
+    }
+
+    .cloud_soft {
+        position: absolute;
+        bottom: 0%;
+        left: 0%;
+        width: 100%;
+        z-index: 1;
+        mix-blend-mode: soft-light;
+    }
+
+    .content {
+        width: 1200px;
+        padding: 0 20px;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+
+    }
+}
